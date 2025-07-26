@@ -7,4 +7,8 @@ curl -L -o backend.zip "$ZIP_URL"
 unzip backend.zip
 rm backend.zip
 
+# Move into extracted folder
+cd DailyStickersBackend
+
+# Install dependencies
 npm install
